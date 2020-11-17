@@ -136,7 +136,7 @@ while running:
     # The if statement is needed because the class needs to be defined once based on initial variables
     # but every time after it needs the updated variables from the previous loop
     if i == 0:
-        sim = pendulum(angle_1, angle_2, 50, 100, 100, 100, 0, 0, 2)
+        sim = pendulum(angle_1, angle_2, mass_1, mass_2, length_1, length_2, 0, 0, 2)
         v1, v2, a1, a2 = sim.display()
 
     else:
